@@ -84,6 +84,11 @@ body {
 	margin:50px 0;
 }
 
+#easter{
+    color: grey;
+    text-decoration: none;
+}
+
 #contact h3 {
 	color: white;
 	display: block;
