@@ -56,7 +56,7 @@ nav {
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased;
 	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
+	font-synthesis:antialiased;
 	text-rendering:optimizeLegibility;
 }
 
@@ -66,7 +66,7 @@ body {
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background black;
+	background: black;
 }
 
 .container {
