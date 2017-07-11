@@ -62,7 +62,15 @@
       <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <button onclick="myFunction()" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <div class="alert alert-info" id="btnGreet">
+  <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  <script>
+function myFunction() {
+    alert("Thanks for contacting! I will respond between 24-48 hours. I promise.");
+}
+</script>
+</div>
     </fieldset>
   </form>
 <style> html, body, a, a:hover { cursor:url('http://www.snazzyspace.com/cursorsfolder/mickey-hand.png'), auto !important; }</style>
