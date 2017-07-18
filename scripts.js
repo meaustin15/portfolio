@@ -51,17 +51,9 @@ $("project1").on('hover', function(){
  $(this).addClass('borderClass'); $(this).removeClass('borderClass');
 
 
-$("#apc")
-  .each(function(i) {
-    if (i != 0) {
-      $("#select")
-        .clone()
-        .attr("id", "images/" + i)
-        .appendTo($(this).parent());
-    }
-    $(this).data("beeper", i);
-  })
-  .mouseenter(function() {
-    $("#beep-two" + $(this).data("beeper"))[0].play();
-  });
-$("#beep-two").attr("id", "beep-two0");
+$("#apc").on('hover',function play(){
+      
+       var audio = document.getElementById("select");
+       audio.play();
+
+});
