@@ -10,10 +10,20 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src='scripts.js'></script>
 </head>
 
 <body>
+
+    <audio>
+        <source src="images/yay.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio>
+    <audio autoplay>
+        <source src="images/bling.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio>
 
     <center>
         <nav class="navbar">
@@ -24,7 +34,7 @@
                         aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
       </button>
-                    <a class="navbar-brand" href="index.html">MA</a>
+                    <a class="navbar-brand" href="index2.html">MA</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,43 +53,53 @@
         </nav>
     </center>
 
-  
+    <center>
+        <div class="container">
+            <form name="contactForm" id="contactForm">
+                <center>
+                    <h3>CONTACT</h3>
+                    <h4>PHONE: 555-555-555</h4>
+                    <a id="easter" href="easteregg.html">
+                        <h4> ADDRESS: 2119 Olive St. </h4>
+                    </a>
+                </center>
+                <fieldset>
+                    <input name="email" placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button onclick="myFunction()" id=submit name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
 
-    <div class="container">
-        <form name="contactForm" onsubmit="submitContactForm" id="contact" action="" method="post">
-            <center>
-                <h3>CONTACT</h3>
-                <h4>PHONE: 555-555-555</h4>
-                <a id="easter" href="easteregg.html">
-                    <h4> ADDRESS: 2119 Olive St. </h4>
-                </a>
-            </center>
-            <fieldset>
-                <input name="email" placeholder="Your name" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Your Email Address" type="email" tabindex="2" required>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
-            </fieldset>
-            <fieldset>
-                <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-            </fieldset>
-            <fieldset>
-                <button onclick="myFunction()" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    <script>
+                        //    function myFunction() {
+                //        alert("Thanks for contacting! I will respond between 24-48 hours. I promise.");
+                 //   }
+                    </script>
+        </div>
+        </fieldset>
+        </form>
+    </center>
 
-                <script>
-                    function myFunction() {
-                        alert("Thanks for contacting! I will respond between 24-48 hours. I promise.");
-                    }
-                </script>
-    </div>
-    </fieldset>
-    </form>
+    <center>
+        <div id="success">
+            <i class="glyphicon glyphicon-thumbs-up"></i>
+            <h2>Thanks for Contacting Me!</h2>
+            <p>Thanks for contacting me I will be back to you within 24-48 hours.</p>
+        </div>
+    </center>
+
+    <audio id="buzzer" src="images/yay.mp3" type="audio/mp3"></audio>
 
 
 

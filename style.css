@@ -173,7 +173,6 @@ body, html{
   background-color: black;
   width: 100%;
   height: 100%;
-  overflow: hidden;
 }
 
 canvas {
@@ -191,3 +190,47 @@ canvas {
   image-rendering: optimize-contrast
 }
 
+#success {
+	display: none;
+	align-content: center;
+}
+
+#contactForm{
+border: 5px solid whitesmoke;
+background-image: url("images/contact.gif");
+}
+
+.borderClass{
+  border-color: #C1E0FF;
+  border-width:1px;
+  border-style: solid;
+  /** OR USE INLINE
+  border: 1px solid #C1E0FF;
+  **/
+}
+
+#image1 { 
+  border: 0px solid red; 
+} 
+#image1:hover { 
+  outline: 2px solid red; 
+
+  
+}
+
+#image2 { 
+  border: 0px solid red; 
+} 
+#image2:hover { 
+  outline: 2px solid red; 
+  border-bottom: 200px;
+  
+}
+#image3 { 
+  border: 0px solid red; 
+} 
+#image3:hover { 
+  outline: 2px solid red; 
+  border-bottom: 200px;
+  
+}
