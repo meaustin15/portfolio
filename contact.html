@@ -8,8 +8,10 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css" href="node_modules/bootstrap/dist/bootstrap-theme.css">
-    <script src="node_modules/jquery/dist/jquery.js"> </script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+    <script src="node_modules/jquery/dist/jquery.js">
+
+    </script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="scripts.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -94,8 +96,12 @@
             <i class="glyphicon glyphicon-thumbs-up"></i>
             <h2>Thanks for Contacting Me!</h2>
             <p>Thanks for contacting me I will be back to you within 24-48 hours.</p>
+            <div onclick="PlaySound('mySound')" onclick="StopSound('mySound')">
+            </div>
         </div>
     </center>
+
+    <audio id='mySound' src='images/yay.mp3' />
 
     <audio id="buzzer" src="images/yay.mp3" type="audio/mp3"></audio>
 
