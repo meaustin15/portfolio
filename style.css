@@ -213,7 +213,7 @@ background-image: url("images/contact.gif");
   border: 0px solid red; 
 } 
 #image1:hover { 
-  outline: 2px solid red; 
+  border: 5px solid red;
 
   
 }
@@ -222,15 +222,15 @@ background-image: url("images/contact.gif");
   border: 0px solid red; 
 } 
 #image2:hover { 
-  outline: 2px solid red; 
-  border-bottom: 200px;
+  border: 5px solid red;
+ 
   
 }
 #image3 { 
   border: 0px solid red; 
 } 
 #image3:hover { 
-  outline: 2px solid red; 
-  border-bottom: 200px;
+  border: 5px solid red;; 
+  
   
 }
