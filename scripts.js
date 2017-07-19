@@ -48,6 +48,8 @@ $("project1").on('hover', function(){
              "border-style":"solid"});
 });
 
+
+
  $(this).addClass('borderClass'); $(this).removeClass('borderClass');
 
 
@@ -57,6 +59,8 @@ $("#apc").on('hover',function play(){
        audio.play();
 
 });
+
+
 
 function PlaySound(soundobj) {
     var thissound=document.getElementById(soundobj);
