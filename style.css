@@ -21,9 +21,10 @@ nav {
 	 border: solid;
 }
 
-#profiletext h4 {
-    display: block;
-    margin: 50px 1000px 0 1000px;
+#profiletext{
+    
+ 
+	padding: 0cm 10cm 3cm 10cm;
     
 }
 

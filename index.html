@@ -8,8 +8,10 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css" href="node_modules/bootstrap/dist/bootstrap-theme.css">
-    <script src="node_modules/jquery/dist/jquery.js"> </script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+    <script src="node_modules/jquery/dist/jquery.js">
+
+    </script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="scripts.js"></script>
     <link rel="stylesheet" href="node_modules/animate.css/animate.css">
     <link rel="stylesheet" href="style.css">
@@ -66,10 +68,11 @@
     <div id="apc" class="row">
         <div class="col-xs-4">
             <div id="image1">
-                <div  onmouseover="PlaySound('mySound')" 
-    onmouseout="StopSound('mySound')" class="animated shake infinite">
-            <a href="about.html"> <img src="images/pikabout.gif" alt="ABOUT" > </a>
-            </div>
+                <div class="animated shake infinite">
+                    <div onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+                        <a href="about.html"> <img src="images/pikabout.gif" alt="ABOUT" > </a>
+                    </div>
+                </div>
             </div>
             <center>
                 <h1>ABOUT</h1>
@@ -78,10 +81,9 @@
         </div>
         <div class="col-xs-4">
             <div id="image2">
-                 <div  onmouseover="PlaySound('mySound')" 
-    onmouseout="StopSound('mySound')" class="animated shake infinite">
-            <a href="projects.html"> <img src="images/charproj.gif" alt="PROJECTS"> </a>
-            </div>
+                <div onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" class="animated shake infinite">
+                    <a href="projects.html"> <img src="images/charproj.gif" alt="PROJECTS"> </a>
+                </div>
             </div>
             <center>
                 <h1>PROJECTS</h1>
@@ -89,10 +91,9 @@
         </div>
         <div class="col-xs-4">
             <div id="image1">
-                 <div  onmouseover="PlaySound('mySound')" 
-    onmouseout="StopSound('mySound')" class="animated shake infinite">
-            <a href="contact.html"> <img src="images/pichu.gif" alt="CONTACT"> </a>
-            </div>
+                <div onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" class="animated shake infinite">
+                    <a href="contact.html"> <img src="images/pichu.gif" alt="CONTACT"> </a>
+                </div>
             </div>
             <center>
                 <h1>CONTACT</h1>
@@ -102,7 +103,7 @@
     </div>
 
 
-    <audio id='mySound' src='images/select.mp3'/>
+    <audio id='mySound' src='images/select.mp3' />
 
     <style>
         html,
