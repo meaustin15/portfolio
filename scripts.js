@@ -49,6 +49,12 @@ $("project1").on('hover', function(){
 });
 
 
+$("projimage1").click(function(){
+    $("project1b").toggle();
+});
+
+
+
 
  $(this).addClass('borderClass'); $(this).removeClass('borderClass');
 
@@ -71,4 +77,8 @@ function StopSound(soundobj) {
     var thissound=document.getElementById(soundobj);
     thissound.pause();
     thissound.currentTime = 0;
+}
+
+function pokeBall(){
+
 }

@@ -22,10 +22,7 @@ nav {
 }
 
 #profiletext{
-    
- border: solid white;
-	padding: 0cm 10cm 3cm 10cm;
-    
+	padding: 0cm 10cm 3cm 10cm;  
 }
 
 .curtain {
@@ -215,9 +212,12 @@ background-image: url("images/contact.gif");
 } 
 #image1:hover { 
   border: 5px solid red;
+  z-index: 0;
 
-  
+    top: 0px;
+    left: 0px;
 }
+
 
 #image2 { 
   border: 0px solid red; 
@@ -234,4 +234,61 @@ background-image: url("images/contact.gif");
   border: 5px solid red;; 
   
   
+}
+
+
+#project1
+{
+z-index: 10;
+
+    top: 0px;
+    left: 0px;
+}
+
+#project1b
+{
+z-index: 20;
+position:absolute;
+    top: 50px;
+    left: -250px;
+
+}
+
+
+
+
+#project2
+{
+z-index: 10;
+
+    top: 0px;
+    left: 0px;
+}
+
+#project2b
+{
+z-index: 20;
+position:absolute;
+    top: 50px;
+    left: -250px;
+
+}
+
+
+
+#project3
+{
+z-index: 10;
+
+    top: 0px;
+    left: 0px;
+}
+
+#project3b
+{
+z-index: 20;
+position:absolute;
+    top: 50px;
+    left: -250px;
+
 }

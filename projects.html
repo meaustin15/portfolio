@@ -52,16 +52,21 @@
             <center>
     </div>
 
+    
+
     <div id="apc" class="row">
-        <div class="col-xs-4">
+        <div class="col-xs-4" id="project1">
             <div id="image1">
+                <div onclick="toggle_div_fun('sectiontohide');">
                 <div onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" class="animated bounce infinite" onclick="poke()">
-                    <a  id="project1"> <img src="images/proj1.gif" alt="Claim Academy"  style="width:200px;height:200px;"> </a>
+                    <a  > <img src="images/proj1.gif" alt="Claim Academy"  style="width:200px;height:200px;" id="projimage1"> </a>
+                    <img id="project1b" id="sectiontohide" src="images/catch.gif"/>
+                </div>
                 </div>
             </div>
             <center>
                 <!-- Small modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">CLAIM ACADEMY</button>
+                <button type="button" id="projbutton1" class="btn btn-primary" data-toggle="modal" data-target="#modal1">CLAIM ACADEMY</button>
 
                 <div id="modal1" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
                     <div class="modal-dialog modal-sm" role="document">
@@ -83,9 +88,10 @@
 
         </div>
         <div class="col-xs-4">
-            <div id="image2">
+            <div id="image2" id="project2">
                 <div onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" class="animated bounce infinite">
                     <a > <img src="images/proj2.gif" alt="PROJECTS" style="width:200px;height:200px;"> </a>
+                    <img id="project2b" src="images/catch.gif"/>
                 </div>
             </div>
             <center>
@@ -107,10 +113,11 @@
                 </div>
             </center>
         </div>
-        <div class="col-xs-4">
+        <div class="col-xs-4" id="project2">
             <div id="image3">
                 <div onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" class="animated bounce infinite">
                     <a > <img src="images/proj3.gif" alt="CONTACT" style="width:200px;height:200px;"> </a>
+                     <img id="project3b" src="images/catch.gif"/>
                 </div>
             </div>
             <center>
