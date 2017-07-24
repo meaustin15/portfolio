@@ -49,8 +49,9 @@ $("project1").on('hover', function(){
 });
 
 
-$("projimage1").click(function(){
-    $("project1b").toggle();
+$("#projimage1").click(function(){
+    console.log('wee');
+    $("#project1b").toggle();
 });
 
 

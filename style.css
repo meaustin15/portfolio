@@ -251,7 +251,16 @@ z-index: 20;
 position:absolute;
     top: 50px;
     left: -250px;
+visibility: hidden;
+}
 
+#project1b:hover
+{
+z-index: 20;
+position:absolute;
+    top: 50px;
+    left: -250px;
+	visibility: visible;
 }
 
 
