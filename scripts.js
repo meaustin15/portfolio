@@ -83,3 +83,5 @@ function StopSound(soundobj) {
 function pokeBall(){
 
 }
+
+

@@ -212,6 +212,7 @@ background-image: url("images/contact.gif");
 #image1 { 
   border: 0px solid red; 
 } 
+
 #image1:hover { 
   border: 5px solid red;
   z-index: 0;
@@ -258,10 +259,7 @@ visibility: hidden;
 
 #project1b:hover
 {
-z-index: 20;
-position:absolute;
-    top: 50px;
-    left: -250px;
+
 	visibility: visible;
 }
 
@@ -274,6 +272,7 @@ z-index: 10;
 
     top: 0px;
     left: 0px;
+  
 }
 
 #project2b
@@ -282,6 +281,14 @@ z-index: 20;
 position:absolute;
     top: 50px;
     left: -250px;
+    visibility: hidden;
+
+}
+
+#project2b:hover
+{
+
+    visibility: visible;
 
 }
 
@@ -295,11 +302,39 @@ z-index: 10;
     left: 0px;
 }
 
+#project3:hover
+{
+animation-play-state: running;
+}
+
 #project3b
 {
 z-index: 20;
 position:absolute;
     top: 50px;
     left: -250px;
+    visibility: hidden;
 
 }
+
+#project3b:hover
+{
+
+    visibility: visible;
+}
+
+#image1:hover, #image2:hover, #image3:hover, {
+  position: relative;
+  -webkit-animation: shake 1s infinite;
+
+   }
+
+@-webkit-keyframes shake {
+  0% {
+    top: 5px; }
+  25%, 75% {
+    top: 15px; }
+  50% {
+    top: 20px; }
+  100% {
+    top: 0px; } }
