@@ -8,7 +8,7 @@
                         aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
       </button>
-                    <a class="navbar-brand" href="index2.html">{{name}}</a>
+                    <a class="navbar-brand" [title]="name" [href]="link" (click)="test()">{{name}}</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->

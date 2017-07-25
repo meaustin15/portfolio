@@ -28,52 +28,8 @@
 
    <navigation></navigation>
 
-    <center>
-        <div class="container">
-            <form name="contactForm" id="contactForm">
-                <center>
-                    <h3>CONTACT</h3>
-                    <h4>PHONE: 555-555-555</h4>
-                    <a id="easter" href="easteregg.html">
-                        <h4> ADDRESS: 2119 Olive St. </h4>
-                    </a>
-                </center>
-                <fieldset>
-                    <input name="email" placeholder="Your name" type="text" tabindex="1" required autofocus>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
-                </fieldset>
-                <fieldset>
-                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-                </fieldset>
-                <fieldset>
-                    <button onclick="myFunction()" id=submit name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-
-                    <script>
-                        //    function myFunction() {
-                //        alert("Thanks for contacting! I will respond between 24-48 hours. I promise.");
-                 //   }
-                    </script>
-        </div>
-        </fieldset>
-        </form>
-    </center>
-
-    <center>
-        <div id="success">
-            <i class="glyphicon glyphicon-thumbs-up"></i>
-            <h2>Thanks for Contacting Me!</h2>
-            <p>Thanks for contacting me I will be back to you within 24-48 hours.</p>
-            <div onclick="PlaySound('mySound')" onclick="StopSound('mySound')">
-            </div>
-        </div>
+<center>
+    <contactForm></contactForm>
     </center>
 
     <audio id='mySound' src='images/yay.mp3' />
